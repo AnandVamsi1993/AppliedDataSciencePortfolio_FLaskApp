@@ -5,5 +5,15 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-
+    <h2>DataBase Project</h2>
+    <p>
+        As part of the IST 659 course, we were tasked with developing an application to manage housing requests and inquiries for Syracuse University's student hostels. We aimed to apply the course concepts to a real-world scenario and chose to use Microsoft SQL Server as our RDBMS and PowerApps for the front-end application.
+        Our first step was to create a logical model of the database using Draw.io, which included tables for Owners, Students, Units, Towers, and other necessary components, along with data constraints, business rules, and logical data models. Although generating data-driven insights was not our goal, we demonstrated working queries, triggers, and requests through the front-end interface.
+        My contribution to the project involved writing the up-down script, queries, triggers, and building a working PowerApps model to connect to SQL Server.
+        <br />
+        The project helped us achieve several learning outcomes, including our ability to collect, store, and access data by identifying and utilizing appropriate technologies. We connected our PowerApps and Azure Data Studio to our instance of SQL Server hosted on the Azure cloud. Overall, the project was a practical application of the concepts learned in IST 659, improving our skills in data management, logical data modeling, and database connectivity.
+    </p>
+    <br />
+    <br />
+    <img src="{{ url_for('static', filename = "Logical_Model.jpg")}}" alt="NLP" class="NLP" style="width:500px; height:500px;" title="This is a logical model of the database.">
 </body>

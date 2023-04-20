@@ -5,5 +5,12 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-
+    <h2>Predicting Playcaling Tendencies in the NFL</h2>
+    <p>
+        A project was undertaken to predict playcalling tendencies during NFL games in order to improve game-winning performance. This was achieved using machine learning techniques, such as decision trees, random forest, and gradient boosting, on pre-snap, play-by-play data from the 2011 to 2020 NFL seasons. The project utilized Python for the entire project lifecycle, from cleaning and feature engineering to data analytics and machine learning. The project's objective was to provide insights using data mining, which included visualizing the best accuracies for each team per down, quarter, and generating a heat map showing accuracy of a given offense against a defense. These insights helped teams anticipate their opponents' playcalling tendencies and improve their game strategies, ultimately leading to better game-winning performances.
+        <br />
+        My contribution to the project included feature engineering variables such as in-game run-pass ratio and expected points added, building gradient boosting algorithms and neural networks to predict play calls. The results were used to explore the relationship between predictability and team success. By analyzing the data, we were able to determine which teams were the most predictable and identify the factors contributing to their predictability. This project helped us gain experience in data cleaning, feature engineering, and machine learning techniques, as well as achieve several learning outcomes, including creating actionable insights using data and the full data science lifecycle. These insights can be applied to future projects to make informed decisions.
+    </p>
+    <img src="{{ url_for('static', filename = "NFL_SampleViz.jpg")}}" alt="NLP" class="NLP" style="width:500px; height:500px;" title="Most Preditable teams per Quarter">
+    <p>A sample visualization from the NFL project</p>
 </body>
